@@ -497,27 +497,27 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 	DnR.propTypes = {
-	  titleBar: _react2.default.PropTypes.oneOfType([_react2.default.PropTypes.object, _react2.default.PropTypes.string]),
-	  style: _react2.default.PropTypes.object,
-	  contentClassName: _react2.default.PropTypes.object,
-	  contentStyle: _react2.default.PropTypes.object,
-	  titleStyle: _react2.default.PropTypes.object,
-	  theme: _react2.default.PropTypes.object,
-	  minWidth: _react2.default.PropTypes.number,
-	  minHeight: _react2.default.PropTypes.number,
-	  edgeDetectionRange: _react2.default.PropTypes.number,
-	  initialWidth: _react2.default.PropTypes.number,
-	  initialHeight: _react2.default.PropTypes.number,
-	  initialTop: _react2.default.PropTypes.number,
-	  initialLeft: _react2.default.PropTypes.number,
-	  transition: _react2.default.PropTypes.string,
-	  animate: _react2.default.PropTypes.bool,
-	  onMove: _react2.default.PropTypes.func,
-	  onResize: _react2.default.PropTypes.func,
-	  onTransform: _react2.default.PropTypes.func,
-	  cursorRemap: _react2.default.PropTypes.func,
-	  boundary: _react2.default.PropTypes.object,
-	  attachedTo: _react2.default.PropTypes.object
+	  titleBar: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+	  style: PropTypes.object,
+	  contentClassName: PropTypes.object,
+	  contentStyle: PropTypes.object,
+	  titleStyle: PropTypes.object,
+	  theme: PropTypes.object,
+	  minWidth: PropTypes.number,
+	  minHeight: PropTypes.number,
+	  edgeDetectionRange: PropTypes.number,
+	  initialWidth: PropTypes.number,
+	  initialHeight: PropTypes.number,
+	  initialTop: PropTypes.number,
+	  initialLeft: PropTypes.number,
+	  transition: PropTypes.string,
+	  animate: PropTypes.bool,
+	  onMove: PropTypes.func,
+	  onResize: PropTypes.func,
+	  onTransform: PropTypes.func,
+	  cursorRemap: PropTypes.func,
+	  boundary: PropTypes.object,
+	  attachedTo: PropTypes.object
 	};
 
 	DnR.defaultProps = {
