@@ -1,6 +1,6 @@
 {
   "name": "@zigvy/react-dnr",
-  "version": "0.4.6",
+  "version": "0.4.7",
   "description": "react-DnR, dragable and resizable window",
   "files": [
     "*.md",
